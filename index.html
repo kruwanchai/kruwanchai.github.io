@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>โปรไฟล์ส่วนตัว</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- ===== ส่วนภาพด้านบน ===== -->
+  <header class="hero">
+    <img src="head.png" alt="ภาพโปรไฟล์ด้านบน" class="hero-image">
+  </header>
+
+  <!-- ===== ส่วนเนื้อหา ===== -->
+  <main class="container">
+    <section class="profile-card">
+
+      <!-- รูปโปรไฟล์ -->
+      <img src="head.png" alt="my self" class="profile-image">
+
+      <h1 class="name">นางสาวใจดี มีสุข</h1>
+
+      <p class="meta"><strong>แผนกเทคโนโลยีดิจิทัล:</strong>นักพัฒนาซอฟต์แวร์และอุปกรณ์คอมพิวเตอร์</p>
+      <p class="meta"><strong>ครูที่ปรึกษา:</strong> ชั้นปีที่1</p>
+
+      <hr>
+
+      <h2>เกี่ยวกับฉัน</h2>
+      <p class="about">
+        ลงมือทำ ดีกว่านั่งฟังลำเฉย ๆ
+      </p>
+
+      <div class="contact">
+        <p><strong>อีเมล:</strong>kruwanchai@wpptech.ac.th</p>
+        <p><strong>โทร:</strong> 08x-xxx-xxxx</p>
+      </div>
+
+    </section>
+  </main>
+
+  <!-- ===== ส่วนด้านล่างเว็บ ===== -->
+  <footer class="site-footer">
+    <p>© <span id="year"></span> ชื่อ นามสกุล</p>
+  </footer>
+
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+
+</body>
+</html>
